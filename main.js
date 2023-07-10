@@ -17,7 +17,7 @@ faqs.forEach(faq => {
     // change icon to minus on click
         const icon = faq.querySelector('.faq_icon i');
         if(icon.className --- 'fa-solid fa-plus') {
-            icon.className - "fa-solid fa-minus"
+            icon.className = "fa-solid fa-minus";
         } else {
             icon.className = "fa-solid fa-plus";
         }
